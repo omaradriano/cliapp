@@ -1,0 +1,25 @@
+{
+  "name": "con",
+  "bin": {
+    "con": "./dist/index.js"
+  },
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "link": "pnpm -g unlink con && pnpm -g con"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/node": "^22.2.0",
+    "commander": "^12.1.0",
+    "node-jq": "^6.0.1"
+  }
+}

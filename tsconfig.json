@@ -1,0 +1,20 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Node LTS",
+    "_version": "20.1.0",
+    "compilerOptions": {
+        "lib": [
+            "ES2023"
+        ],
+        "outDir": "./dist",
+        "module": "node16",
+        "target": "es2022",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "noUncheckedIndexedAccess": true,
+        "moduleResolution": "node16",
+    },
+    
+    "include": ["src"] //this options indicates the folders that typescript gonna be compiling
+}
